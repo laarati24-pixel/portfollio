@@ -1,106 +1,530 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arati Lama | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<!-- test  -->
-<header>
-    <h1>Arati Lama</h1>
-    <p>Cyber Security Student</p>
-</header>
 
-<nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
+    <title>Arati Lama | Cybersecurity Portfolio</title>
+
+    <meta
+        name="description"
+        content="Portfolio of Arati Lama, a cybersecurity student interested in network security, OSINT and ethical hacking."
+    >
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+
+    <a href="#home" class="logo">
+        Arati<span>.</span>
+    </a>
+
+    <div class="nav-links" id="navLinks">
+
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+
+    </div>
+
+    <button class="menu-btn" id="menuBtn">
+        ☰
+    </button>
+
 </nav>
 
-<section id="about">
-    <h2>About Me</h2>
-    <img src="https://via.placeholder.com/180" alt="Profile Picture">
 
-    <p>
-        Hello! I'm <strong>Arati Lama</strong>, a Cyber Security student with
-        a passion for ethical hacking, network security, and digital
-        forensics. I enjoy learning how computer systems work, identifying
-        vulnerabilities, and helping protect organizations from cyber
-        threats. I am continuously improving my technical skills through
-        practical labs and cybersecurity projects.
-    </p>
+<main>
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <p class="label">
+            CYBERSECURITY STUDENT
+        </p>
+
+        <h1>
+            Hi, I'm <span>Arati.</span>
+            <br>
+            I explore & protect
+            digital spaces.
+        </h1>
+
+        <p class="hero-description">
+
+            I'm a cybersecurity student interested in
+            network security, OSINT, vulnerability assessment
+            and ethical hacking.
+
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#projects" class="btn primary">
+                View my work
+            </a>
+
+            <a
+                href="assets/files/resume.pdf"
+                class="btn secondary"
+                target="_blank"
+            >
+                View Resume
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="hero-visual">
+
+        <div class="security-card">
+
+            <div class="card-icon">
+                🛡
+            </div>
+
+            <p class="card-small">
+                CURRENTLY LEARNING
+            </p>
+
+            <h3>
+                Cybersecurity
+            </h3>
+
+            <div class="learning-list">
+
+                <span>Network Security</span>
+                <span>OSINT</span>
+                <span>Linux</span>
+                <span>Security Analysis</span>
+
+            </div>
+
+        </div>
+
+        <div class="floating-tag">
+            Open to Internship 
+        </div>
+
+    </div>
+
 </section>
 
-<section id="skills">
-    <h2>Skills</h2>
 
-    <div class="card">
-        <h3>OSINT</h3>
-        <p>Gathering publicly available information for security analysis.</p>
+
+<section class="about section" id="about">
+
+    <div class="section-number">
+        01
     </div>
 
-    <div class="card">
-        <h3>Network Scanning</h3>
-        <p>Using Nmap to discover hosts, services, and open ports.</p>
+
+    <div class="about-content">
+
+        <p class="label">
+            A LITTLE ABOUT ME
+        </p>
+
+        <h2>
+            Curious about technology.
+            <span>Focused on security.</span>
+        </h2>
+
+        <div class="about-text">
+
+            <p>
+                I'm a cybersecurity student at NCMT with practical
+                academic experience using tools such as Kali Linux,
+                Nmap and Wireshark.
+            </p>
+
+            <p>
+                I enjoy understanding how networks and systems work,
+                finding potential security weaknesses and learning
+                how those systems can be better protected.
+            </p>
+
+            <p>
+                I'm currently developing my skills through practical
+                labs, cybersecurity projects and continuous learning.
+            </p>
+
+        </div>
+
     </div>
 
-    <div class="card">
-        <h3>Web Security</h3>
-        <p>Basic knowledge of website vulnerabilities and secure development.</p>
-    </div>
-
-    <div class="card">
-        <h3>Linux</h3>
-        <p>Using Kali Linux and command-line tools for cybersecurity tasks.</p>
-    </div>
-
-    <div class="card">
-        <h3>HTML & CSS</h3>
-        <p>Building simple and responsive websites.</p>
-    </div>
-
-    <div class="card">
-        <h3>JavaScript</h3>
-        <p>Adding interactive features to web pages.</p>
-    </div>
 </section>
 
-<section id="projects">
-    <h2>Projects</h2>
 
-    <div class="card">
-        <h3>Network Scanning</h3>
-        <p>Performed host discovery and port scanning using Nmap.</p>
+
+<section class="skills section" id="skills">
+
+    <div class="section-heading">
+
+        <div>
+
+            <p class="label">
+                WHAT I WORK WITH
+            </p>
+
+            <h2>
+                Skills & Tools
+            </h2>
+
+        </div>
+
+        <p>
+            Technologies and security concepts I have
+            worked with through academic labs and projects.
+        </p>
+
     </div>
 
-    <div class="card">
-        <h3>Footprinting & OSINT</h3>
-        <p>Collected domain and public information using OSINT techniques.</p>
+
+    <div class="skills-grid">
+
+
+        <article class="skill-card large-card">
+
+            <div class="skill-number">
+                01
+            </div>
+
+            <div class="skill-icon">
+                ◎
+            </div>
+
+            <h3>
+                OSINT
+            </h3>
+
+            <p>
+                Basic open-source intelligence,
+                footprinting, reconnaissance and
+                publicly available information gathering.
+            </p>
+
+            <div class="skill-tags">
+                <span>Reconnaissance</span>
+                <span>Footprinting</span>
+            </div>
+
+        </article>
+
+
+
+        <article class="skill-card">
+
+            <div class="skill-number">
+                02
+            </div>
+
+            <div class="skill-icon">
+                ⌁
+            </div>
+
+            <h3>
+                Network Security
+            </h3>
+
+            <p>
+                Understanding TCP/IP, ports,
+                protocols, scanning and network
+                traffic analysis.
+            </p>
+
+            <div class="skill-tags">
+                <span>Nmap</span>
+                <span>Wireshark</span>
+            </div>
+
+        </article>
+
+
+
+        <article class="skill-card">
+
+            <div class="skill-number">
+                03
+            </div>
+
+            <div class="skill-icon">
+                &gt;_
+            </div>
+
+            <h3>
+                Linux
+            </h3>
+
+            <p>
+                Comfortable working with Kali Linux,
+                Linux CLI and basic system commands.
+            </p>
+
+            <div class="skill-tags">
+                <span>Kali Linux</span>
+                <span>CLI</span>
+            </div>
+
+        </article>
+
+
+
+        <article class="skill-card large-card">
+
+            <div class="skill-number">
+                04
+            </div>
+
+            <div class="skill-icon">
+                ◇
+            </div>
+
+            <h3>
+                Vulnerability Assessment
+            </h3>
+
+            <p>
+                Basic experience identifying open
+                services, potential vulnerabilities
+                and documenting security findings
+                in controlled lab environments.
+            </p>
+
+            <div class="skill-tags">
+                <span>Nmap</span>
+                <span>Metasploitable</span>
+            </div>
+
+        </article>
+
+
     </div>
 
-    <div class="card">
-        <h3>Portfolio Website</h3>
-        <p>Designed a responsive portfolio website using HTML, CSS, and JavaScript.</p>
-    </div>
 </section>
-<section id="contact">
-    <h2>Contact</h2>
 
-    <p>Email: aratilama@example.com</p>
 
-    <button onclick="showMessage()">Say Hello</button>
 
-    <p id="message"></p>
+<section class="projects section" id="projects">
+
+
+    <div class="section-heading">
+
+        <div>
+
+            <p class="label">
+                THINGS I'VE WORKED ON
+            </p>
+
+            <h2>
+                Selected Projects
+            </h2>
+
+        </div>
+
+    </div>
+
+
+
+    <article class="project">
+
+        <div class="project-number">
+            01
+        </div>
+
+        <div class="project-content">
+
+            <p class="project-type">
+                NETWORK SECURITY
+            </p>
+
+            <h3>
+                Network Scanning &
+                Service Enumeration
+            </h3>
+
+            <p>
+                Used Nmap in a controlled lab environment
+                to discover active hosts, identify open ports
+                and enumerate running network services.
+            </p>
+
+            <div class="project-tags">
+
+                <span>Nmap</span>
+                <span>Kali Linux</span>
+                <span>Networking</span>
+
+            </div>
+
+        </div>
+
+    </article>
+
+
+
+    <article class="project project-right">
+
+        <div class="project-number">
+            02
+        </div>
+
+        <div class="project-content">
+
+            <p class="project-type">
+                TRAFFIC ANALYSIS
+            </p>
+
+            <h3>
+                Wireshark Network
+                Traffic Analysis
+            </h3>
+
+            <p>
+                Captured and examined network traffic
+                in an academic lab to understand protocols,
+                source and destination addresses and
+                communication between systems.
+            </p>
+
+            <div class="project-tags">
+
+                <span>Wireshark</span>
+                <span>TCP/IP</span>
+                <span>Analysis</span>
+
+            </div>
+
+        </div>
+
+    </article>
+
+
+
+
+    <article class="project">
+
+        <div class="project-number">
+            03
+        </div>
+
+        <div class="project-content">
+
+            <p class="project-type">
+                RECONNAISSANCE
+            </p>
+
+            <h3>
+                OSINT &
+                Information Gathering
+            </h3>
+
+            <p>
+                Practiced basic OSINT and reconnaissance
+                techniques to understand how publicly
+                available information can be collected
+                during security research.
+            </p>
+
+            <div class="project-tags">
+
+                <span>OSINT</span>
+                <span>Reconnaissance</span>
+                <span>Research</span>
+
+            </div>
+
+        </div>
+
+    </article>
+
+
 </section>
+
+
+
+<section class="contact section" id="contact">
+
+
+    <div class="contact-title">
+
+        <p class="label">
+            GET IN TOUCH
+        </p>
+
+        <h2>
+            Let's build something
+            <span>secure.</span>
+        </h2>
+
+    </div>
+
+
+    <div class="contact-content">
+
+        <p>
+            I'm currently interested in cybersecurity
+            internships and opportunities where I can
+            learn, contribute and gain practical
+            industry experience.
+        </p>
+
+
+        <div class="contact-links">
+
+            <a href="mailto:your@email.com">
+                Email
+                <span>↗</span>
+            </a>
+
+            <a
+                href="https://github.com/YOURUSERNAME"
+                target="_blank"
+            >
+                GitHub
+                <span>↗</span>
+            </a>
+
+            <a
+                href="https://linkedin.com/in/YOURUSERNAME"
+                target="_blank"
+            >
+                LinkedIn
+                <span>↗</span>
+            </a>
+
+        </div>
+
+    </div>
+
+
+</section>
+
+</main>
+
 
 <footer>
-    <p>© 2026 Arati Lama | All Rights Reserved</p>
+
+    <p>
+         2026 Arati Lama
+    </p>
+
+    <p>
+        Designed with curiosity & care.
+    </p>
+
 </footer>
 
-<script src="script.js"></script>
+
+<script src="assets/js/main.js"></script>
 
 </body>
 </html>
